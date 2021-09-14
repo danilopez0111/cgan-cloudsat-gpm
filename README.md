@@ -1,8 +1,9 @@
 # Generating CloudSat Reflectivity Profiles using Global Precipitation Measurement Satellite and cGANs
 
 ## Table of Contents  
-- [Motivation](https://github.com/danilopez0111/cgan-cloudsat-gpm/edit/main/README.md#motivation)
+- [Motivation](#motivation)
 - [Data](#data)  
+   - [NASA Global Precipitation Measurement (GPM) Microwave Imager (GMI)](#gpm)  
    
 
 ## Motivation
