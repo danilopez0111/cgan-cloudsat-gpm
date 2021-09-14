@@ -90,7 +90,7 @@ One of which is a contoured frequency by altitude diagram or CFAD, which shows t
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/correlation.jpg?raw=true" width="500" height="400">
 </p>
 
-Another metric of accuracy we can use is the evaluation of Cloud top heights. From the confusion matrix-esque graph to the above, we see that the heights are positively linearly correlated, which is the hopeful expected outcome. 
+Another metric of accuracy we can use is the evaluation of Cloud top heights. From the confusion matrix-esque graph above, we see that the heights are positively linearly correlated, which is the hopeful expected outcome. 
 
 ### Box and Whisker Plot
 
