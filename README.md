@@ -3,8 +3,9 @@
 ## Table of Contents  
 - [Motivation](#motivation)
 - [Data](#data)  
-   - [NASA Global Precipitation Measurement (GPM) Microwave Imager (GMI)](#gpm)  
-   
+- [ML Model](#mlmodel)
+- [Results](#results)
+- [Summary](#summary)
 
 ## Motivation
 
