@@ -16,7 +16,7 @@
   Adapted from Eliasson et al. 2011
 </p>
 
-Firstly, passive sensors struggle to observe vertical profiles of hydrometeors, including rain and clouds, where Bayesian retrievals, the standard formulation for rainfall algorithms, have shown to have model uncertainty. Secondly, its known that modern passive sensors can struggle with retrievals of cloud profiles.(Elsaesser et al. 2015). So, the big question we’re trying to answer is if deep learning can become a cheaper and alternate approach, which would ultimately allow cheaper and more available passive microwave sensors to determine various cloud properties. 
+Firstly, passive sensors struggle to observe vertical profiles of hydrometeors, including rain and clouds, where Bayesian retrievals, the standard formulation for rainfall algorithms, have shown to have model uncertainty. Secondly, its known that modern passive sensors can struggle with retrievals of cloud profiles (Elsaesser et al. 2015). So, the big question we’re trying to answer is if deep learning can become a cheaper and alternate approach, which would ultimately allow cheaper and more available passive microwave sensors to determine various cloud properties. 
 
 The code for this research is currently sensitive, but may be released at a later date. 
 
