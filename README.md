@@ -1,11 +1,19 @@
 # Generating CloudSat Reflectivity Profiles using Global Precipitation Measurement Satellite and cGANs
 
 ## Table of Contents  
+- [Authors](#authors)
 - [Motivation](#motivation)
 - [Data](#data)  
 - [ML Model](#ml-model)
 - [Results](#results)
 - [Summary](#summary)
+
+## Authors
+
+Daniel Lopez*, Randy J. Chase^, and Stephen W. Nesbitt*  
+*Department of Atmospheric Sciences, University of Illinois Urbana-Champaign  
+^AI2ESS, Department of Computer Science, University of Oklahoma
+
 
 ## Motivation
 
