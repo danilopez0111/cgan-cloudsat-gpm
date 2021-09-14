@@ -81,7 +81,7 @@ So, unfortunately, generative models, and especially in our case, are difficult 
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/cfad.png?raw=true">
 </p>
 
-One of which is a contoured frequency by altitude diagram or CFAD, which shows the frequency of reflectivity values at different heights and then normalized by the total number of samples. CFADs are helpful because they can show us where the model is biased. In our case, we see the biggest bias at higher reflectivity values, telling us that the model is overpredicting the occurrence of convective systems at lowe altitudes
+One of which is a contoured frequency by altitude diagram or CFAD, which shows the frequency of reflectivity values at different heights and then normalized by the total number of samples. CFADs are helpful because they can show us where the model is biased. In our case, we see the biggest bias at higher reflectivity values, telling us that the model is overpredicting the occurrence of convective systems at low altitudes
 
 
 ### Confusion Matrix-esque Graph
