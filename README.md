@@ -3,7 +3,7 @@
 ## Motivation
 
 <p align="center">
-  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/cloud.png?raw=true" width="700" height="500">
+  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/cloud.png?raw=true" width="600" height="400">
 </p>
 
 Firstly, passive sensors struggle to observe vertical profiles of hydrometeors, including rain and clouds, where Bayesian retrievals, the standard formulation for rainfall algorithms, have shown to have model uncertainty. Secondly, its known that modern passive sensors can struggle with retrievals of cloud profiles. So, the big question we’re trying to answer is if deep learning can become a cheaper and alternate approach, which would ultimately allow cheaper and more available passive microwave sensors to determine various cloud properties. 
@@ -34,7 +34,7 @@ From CloudSat, we are utilizing the 94-GHz (W-band) profiling radar, or CPR, whi
 ### Coincidence Dataset
 
 <p align="center">
-  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/coincident.png?raw=true">
+  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/coincident.png?raw=true" width="700" height="500">
 </p>
 
 The coincidence dataset is derived from the CloudSat-GPM Coincidence Dataset prepared by Joe Turk from JPL in 2016. The dataset spans from March 2014 to June 2016 and is matched within 15 minute time intervals. Though, one restriction is that this is only a daytime dataset, as CloudSat is on an ascending orbit and can only retrieve data during the day.
@@ -87,7 +87,7 @@ One of which is a contoured frequency by altitude diagram or CFAD, which shows t
 ### Confusion Matrix-esque Graph
 
 <p align="center">
-  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/correlation.jpg?raw=true" width="700" height="500">
+  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/correlation.jpg?raw=true" width="500" height="400">
 </p>
 
 Another metric of accuracy we can use is the evaluation of Cloud top heights. From the confusion matrix-esque graph to the above, we see that the heights are positively linearly correlated, which is the hopeful expected outcome. 
@@ -95,7 +95,7 @@ Another metric of accuracy we can use is the evaluation of Cloud top heights. Fr
 ### Box and Whisker Plot
 
 <p align="center">
-  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/boxwhisker.jpg?raw=true" width="500" height="500">
+  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/boxwhisker.jpg?raw=true" width="700" height="700">
 </p>
 
 Here a box and whisker plot graph going a little more in depth to the relative errors for each cloud top height bin. We see a shift in error from positive to negative as cloud top height increases. This is likely due to biases within the training dataset, where most clouds are typically located in the mid to lower troposphere. This makes sense in the error, as we should expect the higher altitude cloud top heights to be underpredicted. In the future, we will expect to sort out these biases to create a model that is equally capable of producing accurate results for low clouds as well as high clouds. 
