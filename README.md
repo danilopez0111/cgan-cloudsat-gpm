@@ -3,7 +3,7 @@
 ## Table of Contents  
 - [Motivation](#motivation)
 - [Data](#data)  
-- [ML Model](#mlmodel)
+- [ML Model](#ml model)
 - [Results](#results)
 - [Summary](#summary)
 
