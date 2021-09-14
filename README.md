@@ -16,7 +16,7 @@
   Adapted from Eliasson et al. 2011
 </p>
 
-Firstly, passive sensors struggle to observe vertical profiles of hydrometeors, including rain and clouds, where Bayesian retrievals, the standard formulation for rainfall algorithms, have shown to have model uncertainty. Secondly, its known that modern passive sensors can struggle with retrievals of cloud profiles. So, the big question we’re trying to answer is if deep learning can become a cheaper and alternate approach, which would ultimately allow cheaper and more available passive microwave sensors to determine various cloud properties. 
+Firstly, passive sensors struggle to observe vertical profiles of hydrometeors, including rain and clouds, where Bayesian retrievals, the standard formulation for rainfall algorithms, have shown to have model uncertainty. Secondly, its known that modern passive sensors can struggle with retrievals of cloud profiles.(Elsaesser et al. 2015). So, the big question we’re trying to answer is if deep learning can become a cheaper and alternate approach, which would ultimately allow cheaper and more available passive microwave sensors to determine various cloud properties. 
 
 The code for this research is currently sensitive, but may be released at a later date. 
 
@@ -125,7 +125,7 @@ Here a box and whisker plot graph going a little more in depth to the relative e
 
 Overall, we see a mean cloud top bias of about -105m for all scenes. The cloud top bias was calculated by first determining whether or not a pixel wide column of a scenes contains a cloud, where we know it’s an actual cloud prediction instead of an artifact by checking if two vertical pixels contain non-nan reflectivity values. Then we average the heights of all pixel columns and obtain the cloud top height for the scene. 
 
-One of our benchmarks that we wanted to beat was the MODIS retrieval of cloud top heights, which was determined to have an average bias of -540m. So, I believe the work is on an encouraging path. 
+One of our benchmarks that we wanted to beat was the MODIS retrieval of cloud top heights, which was determined to have an average bias of -540m (Mitra et al. 2020). So, I believe the work is on an encouraging path. 
 
 Firstly, our model has the capability to produce spatially plausible CloudSat 2d reflectivity profiles based on GMI.  Secondly, the model has strong performance when looking at the entire dataset wholistically. Lastly, I believe that this project has the potential to showcase the usability performance of deep learning in remote sensing
  
