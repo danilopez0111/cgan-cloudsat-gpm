@@ -47,7 +47,7 @@ Above is a visual of the coincident path of both CloudSat and GPM for a few freq
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/inputdata.png?raw=true">
 </p>
 
-Above image shows nearly what the actual input data will be when inputting it into the cGAN, only, instead of feeding it the entire span of each scene, we crop it into 64 by 64 pixel chunks. This is also where I can show the use case of a cGAN here, where we are able to produce these radar vertical profiles based on a specific GMI scene. 
+Above image shows nearly what the actual input data will be when inputting it into the cGAN, only, instead of feeding it the entire span of each scene, we crop it into 64 by 64 pixel chunks.
 
 ## ML Model
 
