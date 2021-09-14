@@ -5,6 +5,9 @@
 <p align="center">
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/cloud.png?raw=true" width="600" height="400">
 </p>
+<p align="center">
+  Adapted from Eliasson et al. 2011
+</p>
 
 Firstly, passive sensors struggle to observe vertical profiles of hydrometeors, including rain and clouds, where Bayesian retrievals, the standard formulation for rainfall algorithms, have shown to have model uncertainty. Secondly, its known that modern passive sensors can struggle with retrievals of cloud profiles. So, the big question we’re trying to answer is if deep learning can become a cheaper and alternate approach, which would ultimately allow cheaper and more available passive microwave sensors to determine various cloud properties. 
 
@@ -19,6 +22,9 @@ For this project, we are using two NASA satellites: CloudSat and Global Precipit
 <p align="center">
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/gpm.png?raw=true" >
 </p>
+<p align="center">
+  https://gpm.nasa.gov/missions/GPM
+</p>
 
 From GPM, we are using the GPM Microwave Imager, which provides a 13-channel (10-183 GHz) information along its swath path (885 km wide). 
 
@@ -27,6 +33,9 @@ From GPM, we are using the GPM Microwave Imager, which provides a 13-channel (10
 
 <p align="center">
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/cloudat.jpg?raw=true">
+</p>
+<p align="center">
+  https://cloudsat.atmos.colostate.edu/education/satellites
 </p>
 
 From CloudSat, we are utilizing the 94-GHz (W-band) profiling radar, or CPR, which provides an along path 2 dimensional vertical reflectivity profile.
@@ -54,6 +63,11 @@ Above image shows nearly what the actual input data will be when inputting it in
 <p align="center">
   <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/gan.png?raw=true">
 </p>
+<p align="center">
+  https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+
+</p>
+
 
 GANs are widely used as a deep learning method for the generation of images and includes two components: the Generator and Discriminator, both based on convolutional neural networks. The ultimate goal of a GAN is to generate or synthesize images that cannot be distinguished from real images. GANs are widely popular for their use in the generation of life-like human faces. 
 
