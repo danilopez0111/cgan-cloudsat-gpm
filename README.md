@@ -55,14 +55,6 @@ From GPM, we are using the GPM Microwave Imager, which provides a 13-channel (10
 
 From CloudSat, we are utilizing the 94-GHz (W-band) profiling radar, or CPR, which provides an along path 2 dimensional vertical reflectivity profile.
 
-### Coincidence Dataset
-
-<p align="center">
-  <img src="https://github.com/danilopez0111/cgan-cloudsat-gpm/blob/main/images/coincident.png?raw=true" width="700" height="500">
-</p>
-
-The coincidence dataset is derived from the CloudSat-GPM Coincidence Dataset prepared by Joe Turk from JPL in 2016. The dataset spans from March 2014 to June 2016 and is matched within 15 minute time intervals. Though, one restriction is that this is only a daytime dataset, as CloudSat is on an ascending orbit and can only retrieve data during the day.
-
 Above is a visual of the coincident path of both CloudSat and GPM for a few frequencies from GMI, noting the difference in ranges for each frequency. The hope is that there is enough information from each frequency to allow us to build a complete picture of the 2d reflectivity profiles. 
 
 ### Input Data Example
